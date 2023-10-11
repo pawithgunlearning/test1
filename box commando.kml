@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>box commando</name>
+    <Style id="poly-87CEAC-1200-110-nodesc-normal">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6eacce87</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-87CEAC-1200-110-nodesc-highlight">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6eacce87</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-87CEAC-1200-110-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-87CEAC-1200-110-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-87CEAC-1200-110-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>prachatipat box 1</name>
+      <styleUrl>#poly-87CEAC-1200-110-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              100.5986365,13.995058,0
+              100.600489,13.980159,0
+              100.6206092,13.9844808,0
+              100.620458,14.000087,0
+              100.5986365,13.995058,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
